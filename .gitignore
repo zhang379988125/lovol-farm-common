@@ -1,0 +1,44 @@
+*.class
+
+# macOS
+.DS_Store
+
+/target/
+/common/target/
+/etianauth-spring-boot-starter/target/
+/store_helper/target/
+/seata_config/target/
+
+
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+*.log
+*.versionsBackup
+
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+./basic_entity/.mvn
+
+
+# Project exclude paths
+/lovol-farm-auth-starter/target/
+/lovol-farm-datasource/target/
